@@ -2,7 +2,7 @@
 
 <p align="left"> 
  Meu nome é Maxwillian Santana, Atualmente estudo no SENAI de Jandira - Professor Vicente em Amato em Desenvolvimento de sistemas.
- Hoje em dia estou focando meus estudos para tanto back e tando fornt-end. 
+ Hoje em dia estou focando meus estudos para back-end. 
 </p>
 
 <p align="left">
