@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio — max.dev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══ HEADER ══ -->
+  <header class="portfolio-header">
+    <div class="header-inner">
+      <a class="logo" href="#" onclick="showSection('inicio')">
+        <span class="logo-dot"></span>max.dev
+      </a>
+      <nav>
+        <button class="nav-link active" onclick="showSection('inicio')">início</button>
+        <button class="nav-link"        onclick="showSection('projetos')">projetos</button>
+        <button class="nav-btn"         onclick="showSection('contato')">contato</button>
+        <button class="nav-link" onclick="showSection('experiencias')">experiências</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ══ INÍCIO ══ -->
+  <section id="inicio-section">
+    <div class="hero">
+      <p class="hero-tag">// back-end developer</p>
+      <h1 class="hero-title">Maxwillian<br>Santana</h1> <h2>Developer</h2>
+      <p class="hero-sub">Node.js · JAVA · REST APIs · NoSQL.</p>
+      <button class="hero-cta" onclick="showSection('projetos')">ver projetos →</button>
+    </div>
+  </section>
+
+  <!-- ══ PROJETOS ══ -->
+  <section id="projetos-section">
+    <div class="section-inner">
+      <p class="section-label">// projetos</p>
+
+      <div class="projects-grid">
+
+        <!-- Card 1 -->
+        <article class="project-card">
+          <div class="card-image">
+            <!-- Substitua o src pela foto do seu projeto -->
+            <img src="/assets/fotos/API-Estatos-Cidades.png" alt="API de Estados e Cidades" />
+            <div class="card-image-overlay">
+              <a href="https://github.com/maxsz06/API-EstadosCidades" target="_blank" rel="noopener" class="overlay-btn">
+                ver no github ↗
+              </a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">REST</span>
+            </div>
+            <h2 class="card-title">API de Estados e Cidades</h2>
+            <p class="card-desc">REST API com dados geográficos do Brasil. Deploy realizado no Render com documentação no GitHub README.</p>
+            <a href="https://github.com/maxsz06" target="_blank" rel="noopener" class="card-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+              </svg>
+              github.com/maxsz06
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="project-card">
+          <div class="card-image">
+            <img src="./assets/fotos/Projeto-Integrador.png" alt="Calculadora de Parcelas" />
+            <div class="card-image-overlay">
+              <a href="https://github.com/maxsz06/projeto-integrador-1sem" target="_blank" rel="noopener" class="overlay-btn">
+                ver no github ↗
+              </a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">ES Modules</span>
+            </div>
+            <h2 class="card-title">Projeto Integrados 1º Semestre SENAI</h2>
+            <p class="card-desc">Este projeto integrador tem como objetivo aplicar, de forma prática, os conhecimentos adquiridos no curso de Análise e Desenvolvimento de Sistemas, envolvendo lógica de programação, orientação a objetos, versionamento com Git e organização em camadas.</p>
+            <a href="https://github.com/maxsz06" target="_blank" rel="noopener" class="card-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+              </svg>
+              github.com/maxsz06
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiencias-section">
+    <div class="section-inner">
+      <p class="section-label">// experiências</p>
+  
+      <h1>Formação</h1>
+      <h2>Desenvolvimento de Sistemas ( SENAI - Jandira )</h2>
+      <h4>Em Andamento - Conclusão (Dezembro - 2026)</h4>
+  
+    </div>
+  </section>
+
+  <!-- ══ CONTATO ══ -->
+  <section id="contato-section">
+    <div class="section-inner">
+      <p class="section-label">// contato</p>
+      <div class="contato-box">
+        <p class="contato-title">Entre em contato</p>
+
+        <a href="https://github.com/maxsz06" target="_blank" rel="noopener" class="contato-row">
+          <div class="c-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#185FA5" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+          </div>
+          <span>github.com/<strong>maxsz06</strong></span>
+        </a>
+
+        <a href="https://linkedin.com/in/maxw06" target="_blank" rel="noopener" class="contato-row">
+          <div class="c-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#185FA5" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </div>
+          <span>linkedin.com/in/<strong>maxw06</strong></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
